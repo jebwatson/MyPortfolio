@@ -14,7 +14,7 @@
 /* Set a black background */
 
 body {
-  background-color: black;
+  background-color: white;
 }
 
 /* The root font style */
@@ -32,6 +32,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
+  background-color: black;
 }
 
 /* Setup the background image for the site. */
@@ -40,7 +41,6 @@ body {
   position: relative;
   width: 100%;
   object-fit: cover;
-  clip-path: inset(0 0 20% 0);
   opacity: 0.7;
 }
 
@@ -110,19 +110,46 @@ body {
 #text-about-me {
   font-size: 2rem;
   margin: 0;
+  padding-top: 2.5vmax;
   padding-left: 0.2vmax;
+  width: 30%;
 }
 
 #container-welcome {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: left;
+  align-items: left;
   padding-left: 7vmax;
   padding-top: 6.6vmax;
   padding-bottom: 6.6vmax;
-  width: 30%;
+  width: 100%;
 }
 
+/*=============================================
+=            Main Content Styles            =
+=============================================*/
+
+/* The styles for items in the main content area */
+
+/*=====  End of Main Content Styles  ======*/
+
+/* Setup the container for content as a vertical flex */
+
 #container-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-top: 22vmax;
+  width: 100%;
+  height: 100%;
+}
+
+#text-what-im-doing {
+  font-size: 2rem;
+  font-weight: 320;
+  color: black;
+  padding: 4vmax;
 }
