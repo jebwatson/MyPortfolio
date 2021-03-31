@@ -1,23 +1,56 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Jeb's Portfolio</title>
-        <style>
-            img {
-                width: 100px;
-                border-radius: 50px;
-                float: left;
-                margin-right: 10px;
-            }
-        
-            .welcome {
-                font-weight: bold;
-            }
-        </style>
-    </head>
-    <body>
-        <img src="../images/profile.jpg" alt="">
-        <p class="welcome">Welcome to my web portfolio!</p>
-        <p>My name's Jeb Watson, I'm a professional software engineer with nearly 10 years of experience.</p>
-    </body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta name="description" content="Jeb Watson's portfolio" />
+    <title>Jeb's Portfolio</title>
+
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/home.css" />
+  </head>
+  <body>
+    <div id="container-title-background">
+      <img
+        id="image-title-background"
+        src="../images/me.jpg"
+        alt="Uh oh, Where's Jeb?"
+      />
+    </div>
+    <div id="container-page">
+      <div id="flex-container-menu">
+        <div id="flex-item-container-title">
+          <a id="text-title" class="font-base" href="index.html">Jeb Watson</a>
+        </div>
+        <div>
+          <a class="font-base text-navbar" href="mailto:jeb.watson@gmail.com"
+            >Contact Me</a
+          >
+          <a
+            class="font-base text-navbar"
+            href="about.html#section-buried-treasure"
+            >Portfolio</a
+          >
+          <a
+            class="font-base text-navbar"
+            href="https://google.com"
+            target="_blank"
+            >Blog</a
+          >
+          <a class="font-base text-navbar" href="index.html">Start Here</a>
+        </div>
+      </div>
+      <div id="container-welcome">
+        <h1 id="text-hello-message" class="font-base">Hi, I'm Jeb</h1>
+        <p id="text-about-me" class="font-base">
+          I'm a professional software engineer, designer, seeker of knowledge,
+          Jeep fanatic, disc golfer, & father of cats. I'd love to help you
+          bring your ideas to life.
+        </p>
+      </div>
+    </div>
+    <div id="container-content"></div>
+  </body>
 </html>
