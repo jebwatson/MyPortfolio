@@ -12,28 +12,45 @@
     <link rel="stylesheet" href="../css/home.css" />
   </head>
   <body>
-    <div id="container-page">
+    <div id="container-title-background">
       <img
-        id="profile-picture"
+        id="image-title-background"
         src="../images/me.jpg"
         alt="Uh oh, Where's Jeb?"
       />
+    </div>
+    <div id="container-page">
       <div id="flex-container-menu">
-        <div id="flex-item-container-welcome">
-          <h1 id="welcome">Jeb Watson's Software Portfolio</h1>
-          <h2 id="welcome">Welcome to my web portfolio!</h2>
+        <div id="flex-item-container-title">
+          <a id="text-title" class="font-base" href="index.html">Jeb Watson</a>
         </div>
         <div>
-          <a id="text-navbar" href="about.html">About Me</a>
-          <a id="text-navbar" href="about.html#section-buried-treasure"
-            >Buried Treasure</a
+          <a class="font-base text-navbar" href="mailto:jeb.watson@gmail.com"
+            >Contact Me</a
           >
-          <a id="text-navbar" href="https://google.com" target="_blank"
-            >Google</a
+          <a
+            class="font-base text-navbar"
+            href="about.html#section-buried-treasure"
+            >Portfolio</a
           >
-          <a id="text-navbar" href="mailto:jeb.watson@gmail.com">Contact Me</a>
+          <a
+            class="font-base text-navbar"
+            href="https://google.com"
+            target="_blank"
+            >Blog</a
+          >
+          <a class="font-base text-navbar" href="index.html">Start Here</a>
         </div>
       </div>
+      <div id="container-welcome">
+        <h1 id="text-hello-message" class="font-base">Hi, I'm Jeb</h1>
+        <p id="text-about-me" class="font-base">
+          I'm a professional software engineer, designer, seeker of knowledge,
+          Jeep fanatic, disc golfer, & father of cats. I'd love to help you
+          bring your ideas to life.
+        </p>
+      </div>
     </div>
+    <div id="container-content"></div>
   </body>
 </html>
