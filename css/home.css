@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Josefin Sans";
+  src: url("../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf");
+}
+
+#profile-picture {
+  float: left;
+  object-fit: contain;
+  width: 100%;
+}
+
+#container-page {
+  width: 100%;
+}
+
+#flex-container-menu {
+  display: flex;
+  position: absolute;
+  margin: 30px;
+}
+
+#flex-item-container-welcome {
+  flex-grow: 1;
+}
+
+#fixed-item-container-navbar {
+  right: 5%;
+}
+
+#text-navbar {
+  margin: 5px;
+  font-family: "Josefin Sans";
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+#welcome {
+  font-family: "Josefin Sans";
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+}

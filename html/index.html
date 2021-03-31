@@ -8,26 +8,32 @@
     <meta name="description" content="Jeb Watson's portfolio" />
     <title>Jeb's Portfolio</title>
 
-    <style>
-      img {
-        width: 100px;
-        border-radius: 50px;
-        margin-right: 10px;
-        float: left;
-      }
-
-      .welcome {
-        font-weight: bold;
-      }
-    </style>
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/home.css" />
   </head>
   <body>
-    <img src="../images/profile.jpg" alt="Uh oh, Where's Jeb?" />
-    <h1>Jeb Watson's Software Portfolio</h1>
-    <h2>Welcome to my web portfolio!</h2>
-    <a href="about.html">About Me</a>
-    <a href="about.html#section-buried-treasure">Buried Treasure!</a>
-    <a href="https://google.com" target="_blank">Google</a>
-    <a href="mailto:jeb.watson@gmail.com">Email Me!</a>
+    <div id="container-page">
+      <img
+        id="profile-picture"
+        src="../images/me.jpg"
+        alt="Uh oh, Where's Jeb?"
+      />
+      <div id="flex-container-menu">
+        <div id="flex-item-container-welcome">
+          <h1 id="welcome">Jeb Watson's Software Portfolio</h1>
+          <h2 id="welcome">Welcome to my web portfolio!</h2>
+        </div>
+        <div id="fixed-item-container-navbar">
+          <a id="text-navbar" href="about.html">About Me</a>
+          <a id="text-navbar" href="about.html#section-buried-treasure"
+            >Buried Treasure</a
+          >
+          <a id="text-navbar" href="https://google.com" target="_blank"
+            >Google</a
+          >
+          <a id="text-navbar" href="mailto:jeb.watson@gmail.com">Contact Me</a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
