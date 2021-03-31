@@ -15,16 +15,16 @@
 
 #flex-container-menu {
   display: flex;
+  flex-direction: row;
   position: absolute;
+  right: 0;
+  left: 0;
+  justify-content: stretch;
   margin: 30px;
 }
 
 #flex-item-container-welcome {
   flex-grow: 1;
-}
-
-#fixed-item-container-navbar {
-  right: 5%;
 }
 
 #text-navbar {
